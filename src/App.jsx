@@ -4,6 +4,7 @@ import Login from "./Pages/Login"
 import Register from "./Pages/Register"
 import Todo from "./Pages/Todo"
 import Navbar from "./Components/Navbar"
+import Footer from "./Components/Footer"
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <Route path="/register" element={<Register></Register> } />
         <Route path="/todo" element={<Todo></Todo> } />
       </Routes>
-    
+    <Footer></Footer>
     </BrowserRouter>
   )
 }
